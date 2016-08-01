@@ -14,8 +14,8 @@ $(document).on('ready', function() {
         progressBar.attr('value', value);
 
     });
-    $("img").click(function() {
-        $(this).attr("src", "assets/images/complete_on.png");
+    $('img').click(function() {
+        $(this).attr('src', 'assets/images/complete_on.png');
         console.log('im working!');
 
     });
