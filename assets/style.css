@@ -35,7 +35,7 @@ body {
     font-size: 14px;
 }
 .nav>li>a:hover {
-    border-left: 3px solid #2B85E7;
+    border-left: 4px solid #2B85E7;
     color: #000;
     background: white;
     font-weight: 500;
