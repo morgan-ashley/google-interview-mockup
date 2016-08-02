@@ -4,3 +4,7 @@ A simple mock up a design mockup I made during my interview at Google. It is sti
 
 
 [Check it out here!](http://www.morganashley.me/projects/progress)
+
+###Resources 
+[Scroll sidebar navigation animation](http://jsfiddle.net/mekwall/up4nu/)
+[Scrolling/reading progress bar](https://css-tricks.com/reading-position-indicator/)
