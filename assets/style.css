@@ -2,7 +2,6 @@ body {
     margin: 0;
     width: 100%;
 }
-
 /* begin header and navigation */
 
 #navigation-top {
@@ -23,13 +22,11 @@ body {
     top: 170px;
     width: 380px;
 }
-.nav li.active a {
-    border-left: 4px solid #2B85E7;
-    color: #000;
-    font-weight: 500;
+.nav>li>a:visited{
     background: white;
-    font-size: 15px;
-}
+    color: #000;
+    
+} 
 .nav>li>a {
     padding: 7px 10px;
     display: block;
@@ -38,21 +35,25 @@ body {
 }
 .nav>li>a:hover {
     border-left: 4px solid #2B85E7;
-    color: #000; 
+    color: #2B85E7; 
     background: white;
     font-weight: 500;
     font-size: 15px;
 }
-.nav>li>a:visited{
+.nav li.active a {
+    border-left: 4px solid #2B85E7;
+    color: #2B85E7;
+    font-weight: 500;
     background: white;
-    color: #000;
-    
+    font-size: 15px;
 }
+
 ul {
     list-style: none;
 }
 
 /* Begin content and media */
+
 progress {
     position: fixed;
     left: 0;
@@ -110,6 +111,7 @@ footer {
     height: 60px;
 }
 /* misc */
+
 .col-md-2 {
     margin-top: 165px;
 }
